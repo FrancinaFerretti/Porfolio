@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Francina Ferretti - Arquitectura Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">
+        <img src="logo.png" alt="Logo de Francina Ferretti">
+        <span>FRANCINA FERRETTI</span>
+      </div>
+      <div class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="nav" id="nav">
+        <a href="#home">Inicio</a>
+        <a href="#about">Acerca de</a>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content fade-in">
+      <h1>Francina Ferretti</h1>
+      <div class="subtitle">Estudiante de Arquitectura</div>
+      <p class="description">Diseñando espacios que inspiran y transforman. Explorando la intersección de la forma, la
+        función y la experiencia humana a través del diseño arquitectónico.</p>
+    </div>
+    <div class="scroll-indicator">
+      <span>Desplazar</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about fade-in">
+    <div class="about-text">
+      <h2>Acerca de Mí</h2>
+      <p class="intro">Estudiante de Arquitectura Apasionada</p>
+      <p>Soy una estudiante de arquitectura enfocada en crear espacios que no solo sean estéticamente agradables, sino
+        que también mejoren la calidad de vida de las personas. Mi trabajo se centra en encontrar el equilibrio perfecto
+        entre funcionalidad y diseño.</p>
+      <p>A través de mis proyectos académicos, exploro constantemente nuevas formas de integrar la sostenibilidad con la
+        innovación arquitectónica, siempre considerando el impacto que los espacios tienen en las comunidades.</p>
+
+      <div class="cv-download">
+        <a href="Curriculum Vitae - Francina Ferretti.pdf" class="cv-btn" download="CV-Francina-Ferretti.pdf">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z" />
+          </svg>
+          Descargar Mi CV
+        </a>
+      </div>
+    </div>
+    <div class="about-image">
+      <img src="perfil.jpeg" alt="Francina Ferretti">
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="portfolio-header fade-in">
+      <h2>Trabajos Seleccionados</h2>
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">Todos los Proyectos</button>
+        <button class="filter-btn" data-filter="residential">Residencial</button>
+        <button class="filter-btn" data-filter="commercial">Comercial</button>
+        <button class="filter-btn" data-filter="abroad">Exterior</button>
+      </div>
+    </div>
+
+    <div class="portfolio-grid fade-in">
+      <div class="portfolio-item" data-category="residential">
+        <img src="vivienda1.jpeg" alt="Modern Residence">
+        <div class="portfolio-overlay">
+          <h3>Vivienda</h3>
+          <p>Diseño Residencial</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="commercial">
+        <img src="oficina1.jpeg" alt="Office Complex">
+        <div class="portfolio-overlay">
+          <h3>Oficina</h3>
+          <p>Diseño Comercial</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="residential">
+        <img src="vivienda2.jpeg" alt="Modern Residence">
+        <div class="portfolio-overlay">
+          <h3>Vivienda</h3>
+          <p>Diseño Residencial</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="commercial">
+        <img src="oficina2.jpeg" alt="Office Complex">
+        <div class="portfolio-overlay">
+          <h3>Oficina</h3>
+          <p>Diseño Comercial</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="residential">
+        <img src="vivienda3.jpeg" alt="Modern Residence">
+        <div class="portfolio-overlay">
+          <h3>Vivienda</h3>
+          <p>Diseño Residencial</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="commercial">
+        <img src="oficina3.jpeg" alt="Office Complex">
+        <div class="portfolio-overlay">
+          <h3>Oficina</h3>
+          <p>Diseño Comercial</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="residential">
+        <img src="vivienda4.jpeg" alt="Modern Residence">
+        <div class="portfolio-overlay">
+          <h3>Vivienda</h3>
+          <p>Diseño Residencial</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="commercial">
+        <img src="oficina4.jpeg" alt="Office Complex">
+        <div class="portfolio-overlay">
+          <h3>Oficina</h3>
+          <p>Diseño Comercial</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="commercial">
+        <img src="oficina5.jpeg" alt="Office Complex">
+        <div class="portfolio-overlay">
+          <h3>Oficina</h3>
+          <p>Diseño Comercial</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="abroad">
+        <img src="campo1.jpeg" alt="Office Complex">
+        <div class="portfolio-overlay">
+          <h3>Exterior</h3>
+          <p>Diseño de Exterior</p>
+        </div>
+      </div>
+
+      <!-- <div class="portfolio-item" data-category="concept">
+        <img
+          src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'><rect fill='%23f8f8f8' width='800' height='600'/><polygon points='400,100 600,300 400,500 200,300' fill='%23ddd'/><polygon points='400,150 550,300 400,450 250,300' fill='%23ccc'/><polygon points='400,200 500,300 400,400 300,300' fill='%23bbb'/><text x='400' y='550' font-family='Arial' font-size='24' text-anchor='middle' fill='%23555'>Conceptual Design</text></svg>"
+          alt="Conceptual Design">
+        <div class="portfolio-overlay">
+          <h3>Conceptual Design</h3>
+          <p>Experimental Concept</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="residential">
+        <img
+          src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'><rect fill='%23f2f2f2' width='800' height='600'/><rect fill='%23ddd' x='50' y='150' width='300' height='300'/><rect fill='%23ddd' x='450' y='100' width='300' height='350'/><rect fill='%23ccc' x='100' y='200' width='200' height='150'/><rect fill='%23ccc' x='500' y='150' width='200' height='200'/><text x='400' y='520' font-family='Arial' font-size='24' text-anchor='middle' fill='%23777'>Villa Design</text></svg>"
+          alt="Villa Design">
+        <div class="portfolio-overlay">
+          <h3>Villa Design</h3>
+          <p>Residential Project</p>
+        </div>
+      </div> -->
+
+      <!-- <div class="portfolio-item" data-category="academic">
+        <img
+          src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'><rect fill='%23eeeeee' width='800' height='600'/><rect fill='%23d5d5d5' x='100' y='100' width='600' height='400'/><rect fill='%23c8c8c8' x='150' y='150' width='150' height='300'/><rect fill='%23c8c8c8' x='325' y='150' width='150' height='300'/><rect fill='%23c8c8c8' x='500' y='150' width='150' height='300'/><text x='400' y='550' font-family='Arial' font-size='24' text-anchor='middle' fill='%23666'>Library Project</text></svg>"
+          alt="Library Project">
+        <div class="portfolio-overlay">
+          <h3>Library Project</h3>
+          <p>Academic Design</p>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+  <!-- Project Modal -->
+  <div class="modal" id="projectModal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <img class="modal-image" id="modalImage" src="" alt="">
+      <div class="modal-info">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDescription"></p>
+      </div>
+    </div>
+  </div>
+
+  <section id="skills" class="skills fade-in">
+    <h2>Habilidades Técnicas</h2>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <div class="skill-icon">
+          <img src="autocad-logo.png" alt="AutoCAD">
+        </div>
+        <h3>AutoCAD</h3>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <img src="sketchup-logo.jpeg" alt="SketchUp">
+        </div>
+        <h3>SketchUp</h3>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <img src="revit-logo.jpg" alt="Revit">
+        </div>
+        <h3>Revit</h3>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <img src="rhinoceros-logo.png" alt="Rhinoceros">
+        </div>
+        <h3>Rhinoceros</h3>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <img src="adobe photoshop-logo.png" alt="Adobe Photoshop">
+        </div>
+        <h3>Adobe Photoshop</h3>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <img src="thinmotion-logo.png" alt="ThinMotion">
+        </div>
+        <h3>ThinMotion</h3>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <img src="d5-render-logo.png" alt="D5 Render">
+        </div>
+        <h3>D5 Render</h3>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-icon">
+          <img src="adobe illustrator-logo.png" alt="Adobe Illustrator">
+        </div>
+        <h3>Adobe Illustrator</h3>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-icon">
+          <img src="archicad-logo.jpeg" alt="Archicad">
+        </div>
+        <h3>Archicad</h3>
+      </div>
+      <!-- Repetir para cada programa -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact fade-in">
+    <div class="contact-container">
+      <div class="contact-header">
+        <h2>Colaboremos Juntos</h2>
+        <p class="contact-intro">Siempre estoy interesado en nuevas oportunidades y colaboraciones. Ya sea que tenga un
+          proyecto en mente o simplemente quiera conectarse, no dude en comunicarse.</p>
+      </div>
+
+      <div class="contact-content">
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper">
+          <h3>Envíame un mensaje</h3>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" required>
+              <label for="name">Tu Nombre</label>
+            </div>
+
+            <div class="form-group">
+              <input type="email" id="email" name="email" required>
+              <label for="email">Tu Correo Electrónico</label>
+            </div>
+
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" required>
+              <label for="subject">Asunto</label>
+            </div>
+
+            <div class="form-group">
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <label for="message">Tu Mensaje</label>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              <span>Enviar Mensaje</span>
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M2,21L23,12L2,3V10L17,12L2,14V21Z" />
+              </svg>
+            </button>
+          </form>
+
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info-wrapper">
+          <h3>Contáctame</h3>
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C2,4.89 21.1,4 20,4Z" />
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p><a href="mailto:francinaferretti@gmail.com">francinaferretti@gmail.com</a></p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <p><a href="tel:+542354321697">+54 23-6432-1697</a></p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" />
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>Palermo, CABA</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19M18.5,18.5V13.2A3.26,3.26 0 0,0 15.24,9.94C14.39,9.94 13.4,10.46 12.92,11.24V10.13H10.13V18.5H12.92V13.57C12.92,12.8 13.54,12.17 14.31,12.17A1.4,1.4 0 0,1 15.71,13.57V18.5H18.5M6.88,8.56A1.68,1.68 0 0,0 8.56,6.88C8.56,5.95 7.81,5.19 6.88,5.19A1.69,1.69 0 0,0 5.19,6.88C5.19,7.81 5.95,8.56 6.88,8.56M8.27,18.5V10.13H5.5V18.5H8.27Z" />
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h4>LinkedIn</h4>
+                <p><a href="https://www.linkedin.com/in/francina-ferretti-51b13b21a/"
+                    target="_blank">linkedin.com/in/francina-ferretti-51b13b21a</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Links -->
+          <!-- <div class="social-links">
+            <a href="https://www.linkedin.com/in/francina-ferretti-51b13b21a/" class="social-link"
+              aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19M18.5,18.5V13.2A3.26,3.26 0 0,0 15.24,9.94C14.39,9.94 13.4,10.46 12.92,11.24V10.13H10.13V18.5H12.92V13.57C12.92,12.8 13.54,12.17 14.31,12.17A1.4,1.4 0 0,1 15.71,13.57V18.5H18.5M6.88,8.56A1.68,1.68 0 0,0 8.56,6.88C8.56,5.95 7.81,5.19 6.88,5.19A1.69,1.69 0 0,0 5.19,6.88C5.19,7.81 5.95,8.56 6.88,8.56M8.27,18.5V10.13H5.5V18.5H8.27Z" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/frannferretti/" class="social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
+              </svg>
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Francina Ferretti. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const menuToggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('nav');
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      nav.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking on a link
+    document.querySelectorAll('.nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        menuToggle.classList.remove('active');
+        nav.classList.remove('active');
+      });
+    });
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Header scroll effect
+    window.addEventListener('scroll', () => {
+      const header = document.querySelector('.header');
+      if (window.scrollY > 100) {
+        header.style.background = 'rgba(255, 255, 255, 0.98)';
+        header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+      } else {
+        header.style.background = 'rgba(255, 255, 255, 0.95)';
+        header.style.boxShadow = 'none';
+      }
+    });
+
+    // Portfolio filters
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        const filter = button.getAttribute('data-filter');
+
+        portfolioItems.forEach(item => {
+          if (filter === 'all' || item.getAttribute('data-category') === filter) {
+            item.style.display = 'block';
+            setTimeout(() => {
+              item.style.opacity = '1';
+              item.style.transform = 'scale(1)';
+            }, 100);
+          } else {
+            item.style.opacity = '0';
+            item.style.transform = 'scale(0.8)';
+            setTimeout(() => {
+              item.style.display = 'none';
+            }, 300);
+          }
+        });
+      });
+    });
+
+    // Portfolio modal
+    const modal = document.getElementById('projectModal');
+    const modalImage = document.getElementById('modalImage');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalDescription = document.getElementById('modalDescription');
+    const modalClose = document.querySelector('.modal-close');
+
+    const projectData = {
+      'Vivienda': {
+        subject: 'Proyecto Arquitectónico II',
+        description: 'Diseño de vivienda unifamiliar que explora la relación entre espacios interiores y exteriores. El proyecto se enfoca en la integración con el entorno natural y la optimización de la luz natural.',
+        year: '2024',
+        tools: 'AutoCAD, SketchUp, Photoshop'
+      },
+      'Oficina': {
+        subject: 'Diseño Arquitectónico III',
+        description: 'Complejo de oficinas diseñado con criterios de sustentabilidad y bienestar laboral. Incluye espacios verdes, sistemas de ventilación natural y configuraciones flexibles de trabajo.',
+        year: '2024',
+        tools: 'Revit, 3ds Max, V-Ray'
+      },
+      'Exterior': {
+        subject: 'Storm cottage - Fearon Hay',
+        description: 'Entrega para la materia Representación arquitectónica. FADU, UBA.',
+        year: '2024',
+        tools: 'Twinmotion'
+      }
+      ,
+      // Agregar el resto de proyectos...
+    };
+
+    // Actualizar la función de apertura del modal:
+    portfolioItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const img = item.querySelector('img');
+        const title = item.querySelector('h3').textContent;
+        const project = projectData[title];
+
+        modalImage.src = img.src;
+        modalTitle.textContent = title;
+
+        // Actualizar el HTML del modal-info
+        document.querySelector('.modal-info').innerHTML = `
+      <h3>${title}</h3>
+      <div class="modal-subject">${project?.subject || 'Proyecto Académico'}</div>
+      <div class="modal-description">${project?.description || 'Descripción del proyecto próximamente.'}</div>
+      <div class="modal-details">
+        <div class="modal-detail-item">
+          <div class="modal-detail-label">Año</div>
+          <div class="modal-detail-value">${project?.year || '2024'}</div>
+        </div>
+        <div class="modal-detail-item">
+          <div class="modal-detail-label">Herramientas</div>
+          <div class="modal-detail-value">${project?.tools || 'AutoCAD, SketchUp'}</div>
+        </div>
+      </div>
+    `;
+
+        modal.style.display = 'flex'; // Cambiar a flex
+        setTimeout(() => modal.classList.add('show'), 10);
+        document.body.style.overflow = 'hidden';
+      });
+    });
+
+    // Actualizar la función de cierre:
+    function closeModal() {
+      modal.classList.remove('show');
+      setTimeout(() => {
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+      }, 300);
+    }
+
+    modalClose.addEventListener('click', closeModal);
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeModal();
+    });
+
+
+
+    // Fade in animation on scroll
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.fade-in').forEach(el => {
+      observer.observe(el);
+    });
+
+    // Initialize first animation
+    document.querySelector('.hero .fade-in').classList.add('visible');
+
+    // Touch optimizations for mobile
+    if ('ontouchstart' in window) {
+      portfolioItems.forEach(item => {
+        item.addEventListener('touchstart', () => {
+          item.querySelector('.portfolio-overlay').style.opacity = '1';
+        });
+
+        item.addEventListener('touchend', () => {
+          setTimeout(() => {
+            if (!item.matches(':hover')) {
+              item.querySelector('.portfolio-overlay').style.opacity = '0';
+            }
+          }, 2000);
+        });
+      });
+    }
+
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const submitBtn = this.querySelector('.submit-btn');
+      const originalText = submitBtn.innerHTML;
+
+      // Show loading state
+      submitBtn.innerHTML = '<span>Sending...</span>';
+      submitBtn.disabled = true;
+
+      // Simulate form submission (replace with actual form handling)
+      setTimeout(() => {
+        submitBtn.innerHTML = '<span>Message Sent!</span>';
+        submitBtn.style.background = '#4CAF50';
+
+        // Reset form
+        setTimeout(() => {
+          this.reset();
+          submitBtn.innerHTML = originalText;
+          submitBtn.style.background = 'var(--accent-color)';
+          submitBtn.disabled = false;
+        }, 2000);
+      }, 1500);
+    });
+
+    // Add floating label animation
+    document.querySelectorAll('.form-group input, .form-group textarea').forEach(input => {
+      input.addEventListener('blur', function () {
+        if (this.value !== '') {
+          this.setAttribute('data-filled', 'true');
+        } else {
+          this.removeAttribute('data-filled');
+        }
+      });
+    });
+
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const subject = document.getElementById("subject").value;
+      const message = document.getElementById("message").value;
+
+      const body = `Nombre: ${name}%0AEmail: ${email}%0A%0AMensaje:%0A${encodeURIComponent(message)}`;
+      const mailtoLink = `mailto:francinaferretti@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+
+      window.location.href = mailtoLink;
+    });
+  </script>
+
+</body>
+
+</html>
