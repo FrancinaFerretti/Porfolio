@@ -1,0 +1,11 @@
+@media (hover: none) and (pointer: coarse) {
+  .portfolio-item:active .portfolio-overlay {
+    opacity: 1;
+  }
+  .nav a:active {
+    color: var(--accent-color);
+  }
+  .filter-btn:active {
+    color: var(--accent-color);
+  }
+}
